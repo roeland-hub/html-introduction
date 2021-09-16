@@ -13,6 +13,7 @@ img {
     background-size: cover;
     height: 300px;
     width: 200px;
+    
 }
 
 .container-info {
@@ -23,13 +24,72 @@ img {
     padding-bottom: 20px;
 }
 
+.container-grid {
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw;
+    grid-gap: 20px;
+    min-height: 200px;
+    padding: 20px;
+}
+
 .container-hobbies {
     border: white solid 2px;
-    width: 40%;
     margin: 0 auto 20px auto;
     padding-bottom: 20px;
+    /*text-align: center;*/
+    width: 30vw;
 }
 
 .container-hobbies > h2 {
     text-align: center;
 }
+
+ul {
+    width: 60%;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+.container-count {
+    border: white solid 2px;
+    margin: 0 auto 20px auto;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 30vw;
+}
+
+.container-story {
+    border: white solid 2px;
+    margin: 0 auto 20px auto;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 30vw;
+}
+
+footer {
+    text-align: center;
+    background-color: white;
+    color: black;
+    height: 60px;
+    font-size: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+.color-red {
+    color: red;
+}
+
+.color-blue {
+    color: blue;
+}
+
+.container-img {
+    background-color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
